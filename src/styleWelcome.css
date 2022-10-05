@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: 0;
@@ -14,7 +14,7 @@
     --color-letters:white;
     --border-radius-text-field-and-button:20px;
     --size-letters-text-field:15px;
-    --size-letters-button:15px;
+    /* --size-letters-button:15px;
   }
 
 /*section.wlcm{
@@ -25,7 +25,7 @@
    
 }*/
 
- .buttonLogin {
+ /* .buttonLogin {
     background: beige;
     font-size: 18px;
     display: flex;
@@ -54,5 +54,5 @@
 @media (min-width: 1020px){
 
 
-}
+} */ 
 
