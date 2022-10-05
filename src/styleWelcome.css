@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    background-image: url(IMG/Montanas-Rocosas-En-Canada-Lago-Louise-Y-Banff-f94e70f.webp);
-}
+    /* background-image: url(IMG/Montanas-Rocosas-En-Canada-Lago-Louise-Y-Banff-f94e70f.webp); */
+/* } */
 
 :root{
     --button-height:35px;
@@ -14,8 +14,13 @@
     --color-letters:white;
     --border-radius-text-field-and-button:20px;
     --size-letters-text-field:15px;
+<<<<<<< HEAD
     /* --size-letters-button:15px;
   }
+=======
+    --size-letters-button:15px;
+  } */
+>>>>>>> 7254ab81109d10a015afe24a6e1eb72ff5a538a2
 
 /*section.wlcm{
     display: flex;
@@ -54,5 +59,10 @@
 @media (min-width: 1020px){
 
 
+<<<<<<< HEAD
 } */ 
 
+=======
+}
+ */
+>>>>>>> 7254ab81109d10a015afe24a6e1eb72ff5a538a2
