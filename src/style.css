@@ -16,7 +16,7 @@
 }
 
 .register{
-	background-image: url(IMG/Montanas-Rocosas-En-Canada-Lago-Louise-Y-Banff-f94e70f.webp);
+	background-image: url(IMG/Montanas-Rocosas-En-Canada-Lago-Louise-Y-Banff-f94e70f.p);
 	height: 100vmax;
 	width: 100%;
 	opacity: 0.9;
@@ -34,14 +34,14 @@
     margin-bottom: -30px;
 }
 .Title{
-  color:black;
+  color:rgb(246, 242, 242);
   margin-bottom: 20px;
 }
 .Form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 30px;
     width: 100%;
 }
 .texField{
@@ -70,13 +70,13 @@
 .button{
 
 	height: var(--button-height);
-    width: var(--button-width);
-    margin-top: 6px;
-    border-radius: var(--border-radius-text-field-and-button);
+          width: var(--button-width);
+          margin-top: 6px;
+          border-radius: var(--border-radius-text-field-and-button);
 	font-size: var(--tamaño-letra);
-	background-color:var(--color-button);
+	background-color:grey;
 	font-size: var(--size-letters-button);
-    color: var( --color-letters);
+          color: var( --color-letters);
 
 }
 .youAreMember{
@@ -94,7 +94,7 @@
 
 
 .sectionLogin{
-    background-image: url(IMG/Montanas-Rocosas-En-Canada-Lago-Louise-Y-Banff-f94e70f.webp);
+    
 	height: 100vmax;
 	width: 100%;
 	opacity: 0.9; 

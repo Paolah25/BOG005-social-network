@@ -6,7 +6,7 @@ export const register = () => {
 	registrar.innerHTML = `
       <div class="container">
                 <figure class="imageDescription">
-                        <img class="imgLogo" src="IMG/Explore-removebg-preview.png">
+	      <img class="imgLogo" src="IMG/Explore-removebg-preview.png">
                         <h1 class="Title">Register</h1>
                 </figure>
                 <form action=""  id="registerForm" class="Form">

@@ -10,8 +10,8 @@ export const wall = () => {
   sectionWall.innerHTML = `
 	<header class=headerWall>
 	   <img class="imgLogoWall" src="IMG/Explore-removebg-preview.png">
-  </header>
-  <button class="wallLogout">salir</button>
+          </header>
+           <button class="wallLogout">salir</button>
 	<section>
 		<form class="formWall">
 			<input type="text" placeholder="Description" id="post">
@@ -63,21 +63,21 @@ export const wall = () => {
         });
 
         if (aux === 1) {
-          p1 += `<button class="RemovelikeButton"  data-id="${doc.id}">ya no me gusta</button>`;
+          p1 += `<button class="RemovelikeButton"  data-id="${doc.id}">don´t like</button>`;
         } else {
-          p1 += `<button class="likeButton"  data-id="${doc.id}">me gusta</button>`;
+          p1 += `<button class="likeButton"  data-id="${doc.id}">Like</button>`;
         }
 
         htmladd += `
           <div>
-          <p>  ${post.email} <br> <br> ${post.description}</p>
-          <p> ${post.like.length}</p>
-
-          <section clas="wallButtons">
+          <p class=post>  ${post.email} <br> <br> ${post.description}</p>
+         
+          <section class="wallButtons">
+	          <p class=likeNumber>${post.like.length}</p>
                     ${p1}
                     <button class="deleteButton"  data-id="${doc.id}">Delete</button>
                     <button class="editButton"  data-id="${doc.id}">Edit</button>
-				    </section>
+          </section>
           </div>
 				       
              `;
