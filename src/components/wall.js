@@ -8,8 +8,9 @@ export const wall = () => {
   const sectionWall = document.createElement('section');
   sectionWall.className = 'sectionWall';
   sectionWall.innerHTML = `
+  <h1 class="walltitle">Tell your experience</h1>
 	<header class=headerWall>
-	   <img class="imgLogoWall" src="IMG/Explore-removebg-preview.png">
+	   <img class="imgLogoWall" src="IMG/Explore-removebg-preview.png">   
   </header>
   <button class="wallLogout">salir</button>
 	<section>
