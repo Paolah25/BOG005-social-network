@@ -7,7 +7,7 @@ Se trata de la red social Explore America donde los usuarios podran compartir lo
 
 ## 3. Historias de usuario
 
-1. Yo como usuario quiero poder registrarme con correo y contraseña o con Google para hacer uso de la red social.
+1.Yo como usuario quiero poder registrarme con correo y contraseña o con Google para hacer uso de la red social.
 
 2.Yo como usuario quiero poder iniciar sesión con correo y contraseña o con Google en la red social para hacer uso de la misma
 
@@ -16,5 +16,5 @@ Se trata de la red social Explore America donde los usuarios podran compartir lo
 4.Yo como usuario quiero poder dar likes y quitar likes a las publicaciones del muro.
 
 
-## 4. Imagenes finales del proyecto
+## 4. Imágenes finales del proyecto
 
