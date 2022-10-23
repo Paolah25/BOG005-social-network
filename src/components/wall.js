@@ -7,9 +7,9 @@ export const wall = () => {
   sectionWall.className = 'sectionWall';
   sectionWall.innerHTML = `
   <header class="headerWall">
-     <img class="imgLogoWall" src="IMG/explore.PNG">
+     <img class="imgLogoWall" src="IMG/Explore-removebg-preview.png">
      <ul>
-     <li><button id="modalPost">new post</button></li>
+     <li><button id="modalPost">New post</button></li>
      <li><button class="wallLogout">Sign off</button></li>
      </ul>
   </header>

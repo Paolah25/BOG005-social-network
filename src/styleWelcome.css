@@ -1,11 +1,87 @@
+img.LogoWlcm{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;	
+    left: 3px;
+	
+
+}
+
+h1.titleWlcm{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	color: rgb(5, 3, 3);
+}
+section.wlcm{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+	
+}
+
+.buttonRegister{
+	height: var(--button-height);
+          width: var(--button-width);
+          margin-top: 6px;
+          border-radius: var(--border-radius-text-field-and-button);
+	font-size: var(--tamaño-letra);
+	background-color: rgb(148, 187, 238);
+	font-size: var(--size-letters-button);
+          color: black;
+	text-decoration: none;
+
+}
+.buttonRegister:hover {
+	background-color: #edcb22;
+	color: white;
+     }
+
+.buttonLogin{
+	height: var(--button-height);
+          width: var(--button-width);
+          margin-top: 6px;
+          border-radius: var(--border-radius-text-field-and-button);
+	font-size: var(--tamaño-letra);
+	background-color:rgb(148, 187, 238);
+	font-size: var(--size-letters-button);
+          color: black;
+	text-decoration: none;
+}
+
+.buttonLogin:hover {
+	background-color: #edcb22;
+	color: white;
+     }
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
 /* *{
+    background-image: url(IMG/Montanas-Rocosas-En-Canada-Lago-Louise-Y-Banff-f94e70f.webp);
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    /* background-image: url(IMG/Montanas-Rocosas-En-Canada-Lago-Louise-Y-Banff-f94e70f.webp); */
-/* } */
+ } 
 
-/*:root{
+ .sectionWelcome{
+
+	height: 100vmax;
+	width: 100%;
+	opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30%;
+}
+/* :root{
     --button-height:35px;
     --button-width:35%;
     --text-field-height:35px;
@@ -13,24 +89,12 @@
     --color-button:blue;
     --color-letters:white;
     --border-radius-text-field-and-button:20px;
-    --size-letters-text-field:15px;
-<<<<<<< HEAD
-    /* --size-letters-button:15px;
-  }
-=======
+    --size-letters-text-field:15px; 
     --size-letters-button:15px;
   } */
->>>>>>> 7254ab81109d10a015afe24a6e1eb72ff5a538a2
+/* 
 
-/*section.wlcm{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30%;
-   
-}*/
-
- /* .buttonLogin {
+  .buttonLogin {
     background: beige;
     font-size: 18px;
     display: flex;
@@ -56,13 +120,4 @@
 
 }
 
-@media (min-width: 1020px){
-
-
-<<<<<<< HEAD
-} */ 
-
-=======
-}
- */
->>>>>>> 7254ab81109d10a015afe24a6e1eb72ff5a538a2
+@media (min-width: 1020px){} */ */
