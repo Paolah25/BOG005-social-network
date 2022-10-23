@@ -1,6 +1,7 @@
 import {
   savePost, onGetPost, deletePost, getPostOne, updatePost, logOut, auth, likePost, DeletelikePost,
 } from '../lib/firebase/firebaseService.js';
+
 export const wall = () => {
   const sectionWall = document.createElement('section');
   sectionWall.className = 'sectionWall';
