@@ -3,7 +3,7 @@ export const welcome = () => {
   sectionWelcome.className = 'sectionWelcome';
   sectionWelcome.innerHTML = `
   <section>
-  <img class="imgLogoWall" src="IMG/Explore-removebg-preview.png">
+  <img class="imgLogoWlcm" src="IMG/Explore-removebg-preview.png">
   <h1 class="titleWlcm">Welcome to the page</h1>
              <button  class= "buttonRegister"><a href="#register">Register</a></button>
                        <button class="buttonLogin"><a href="#login">Login</a></button>

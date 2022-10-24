@@ -1,9 +1,9 @@
-img.LogoWlcm{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: auto;	
-    left: 3px;
+.imgLogoWlcm{
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    margin-bottom: -30px;
+    margin-left: 80px;
 	
 
 }
@@ -13,7 +13,9 @@ h1.titleWlcm{
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
+    margin-top: 20px;
 	color: rgb(5, 3, 3);
+    font-size: x-large;
 }
 section.wlcm{
 	display: flex;
@@ -27,14 +29,18 @@ section.wlcm{
 .buttonRegister{
 	height: var(--button-height);
           width: var(--button-width);
-          margin-top: 6px;
+          margin-top: 110px;
+          margin-left: 100px;
           border-radius: var(--border-radius-text-field-and-button);
 	font-size: var(--tamaño-letra);
-	background-color: rgb(148, 187, 238);
+	background-color:rgb(44, 125, 231);
 	font-size: var(--size-letters-button);
           color: black;
 	text-decoration: none;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .buttonRegister:hover {
 	background-color: #edcb22;
@@ -44,13 +50,17 @@ section.wlcm{
 .buttonLogin{
 	height: var(--button-height);
           width: var(--button-width);
-          margin-top: 6px;
+          margin-top: 10px;
+          margin-left: 100PX;
           border-radius: var(--border-radius-text-field-and-button);
 	font-size: var(--tamaño-letra);
-	background-color:rgb(148, 187, 238);
+	background-color:rgb(44, 125, 231);
 	font-size: var(--size-letters-button);
           color: black;
 	text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .buttonLogin:hover {
@@ -61,63 +71,179 @@ section.wlcm{
 a{
 	text-decoration: none;
 	color: black;
+    font-size: large;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 
-
-/* *{
+#root {
     background-image: url(IMG/Montanas-Rocosas-En-Canada-Lago-Louise-Y-Banff-f94e70f.webp);
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
- } 
+}
 
- .sectionWelcome{
+@media only screen and (min-width:768px) and (max-width:900px){
 
-	height: 100vmax;
-	width: 100%;
-	opacity: 0.9;
-    display: flex;
+.imgLogoWlcm{
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    margin-bottom: -30px;
+    margin-left: 300px;
+	
+
+}
+
+h1.titleWlcm{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+    margin-top: 20px;
+	color: rgb(5, 3, 3);
+    font-size: x-large;
+}
+section.wlcm{
+	display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30%;
+    margin-top: 30px;
+    width: 100%;
+	
 }
-/* :root{
-    --button-height:35px;
-    --button-width:35%;
-    --text-field-height:35px;
-    --text-field-width:60%;
-    --color-button:blue;
-    --color-letters:white;
-    --border-radius-text-field-and-button:20px;
-    --size-letters-text-field:15px; 
-    --size-letters-button:15px;
-  } */
-/* 
 
-  .buttonLogin {
-    background: beige;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.buttonRegister {
-    background-color: rgb(243, 239, 239);
-    font-size: 18px;
+.buttonRegister{
+	height: var(--button-height);
+          width: var(--button-width);
+          margin-top: 110px;
+          margin-left: 265px;
+          border-radius: var(--border-radius-text-field-and-button);
+	font-size: var(--tamaño-letra);
+	background-color:rgb(44, 125, 231);
+	font-size: var(--size-letters-button);
+          color: black;
+	text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
-.a {
-    background-color: rgb(243, 239, 239);
-    font-size: 18px;
+.buttonRegister:hover {
+	background-color: #edcb22;
+	color: white;
+     }
+
+.buttonLogin{
+	height: var(--button-height);
+          width: var(--button-width);
+          margin-top: 10px;
+          margin-left: 265PX;
+          border-radius: var(--border-radius-text-field-and-button);
+	font-size: var(--tamaño-letra);
+	background-color:rgb(44, 125, 231);
+	font-size: var(--size-letters-button);
+          color: black;
+	text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonLogin:hover {
+	background-color: #edcb22;
+	color: white;
+     }
+
+a{
+	text-decoration: none;
+	color: black;
+    font-size: large;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+
+#root {
+    background-image: url(IMG/Montanas-Rocosas-En-Canada-Lago-Louise-Y-Banff-f94e70f.webp);
+}
+
+}
+
+@media only screen and (min-width:1000px) and (max-width:1024px){
+
+.imgLogoWlcm{
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    margin-bottom: -30px;
+    margin-left: 430px;
+	
+
+}
+
+h1.titleWlcm{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+    margin-top: 20px;
+	color: rgb(5, 3, 3);
+    font-size: x-large;
+}
+section.wlcm{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+	
+}
+
+.buttonRegister{
+	height: var(--button-height);
+          width: var(--button-width);
+          margin-top: 110px;
+          margin-left: 430px;
+          border-radius: var(--border-radius-text-field-and-button);
+	font-size: var(--tamaño-letra);
+	background-color:rgb(44, 125, 231);
+	font-size: var(--size-letters-button);
+          color: black;
+	text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
 
-@media (min-width: 760px) {
-
+.buttonLogin{
+	height: var(--button-height);
+          width: var(--button-width);
+          margin-top: 10px;
+          margin-left: 430px;
+          border-radius: var(--border-radius-text-field-and-button);
+	font-size: var(--tamaño-letra);
+	background-color:rgb(44, 125, 231);
+	font-size: var(--size-letters-button);
+          color: black;
+	text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media (min-width: 1020px){} */ */
+
+
+a{
+	
+    font-size: large;
+    
+  
+}
+
+
+}

@@ -39,7 +39,7 @@ const db = getFirestore();
 export const logOut = () => signOut(auth);
 
 // guardar publicacion, correo y uaid
-export const savePost = (description, like) => {
+export const savePost = (description) => {
   if (currentUser) {
     const email = auth.currentUser.email;
     const uid = auth.currentUser.uid;

@@ -100,10 +100,7 @@ export const wall = () => {
       buttonLike.forEach((btn) => {
         btn.addEventListener('click', (event) => {
           const currentUserLike = auth.currentUser.uid;
-          console.log(currentUserLike);
           const idLikeButton = event.target.dataset.id;
-          console.log(idLikeButton);
-          console.log('add');
           likePost(currentUserLike, idLikeButton);
         });
       });
@@ -112,9 +109,7 @@ export const wall = () => {
       buttonLikeremove.forEach((btn) => {
         btn.addEventListener('click', (event) => {
           const currentUserLike = auth.currentUser.uid;
-          console.log('eliminando');
           const idLikeButton = event.target.dataset.id;
-          console.log(idLikeButton);
           DeletelikePost(currentUserLike, idLikeButton);
         });
       });

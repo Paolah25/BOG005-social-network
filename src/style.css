@@ -8,7 +8,7 @@
   --button-width:35%;
   --text-field-height:35px;
   --text-field-width:60%;
-  --color-button:blue;
+  --color-button: rgb(44, 125, 231);
   --color-letters:white;
   --border-radius-text-field-and-button:20px;
   --size-letters-text-field:15px;
@@ -57,14 +57,14 @@
     font-size: 12px;
 }
 .youAreMember{
-    background-color: rgba(29, 29, 144, 0.611);
+    background-color: rgba(12, 158, 60, 0.611);
     color: aliceblue;
     margin-top: 10px;
     font-size: 18px;
 }
 .a{
     font-size: 15px;
-    background-color: rgba(29, 29, 144, 0.611);
+    background-color: rgba(12, 158, 60, 0.611);
     color: white;
 }
 .button{
@@ -80,14 +80,14 @@
 
 }
 .youAreMember{
-    background-color: rgba(29, 29, 144, 0.611);
+    background-color: rgba(12, 158, 60, 0.611);
     color: aliceblue;
     margin-top: 10px;
     font-size: 18px;
 }
 .a{
     font-size: 15px;
-    background-color: rgba(29, 29, 144, 0.611);
+    background-color: rgba(12, 158, 60, 0.611);
     color: white;
 }
 /*login*/
@@ -120,7 +120,7 @@
     margin-left: 7px;
 }
 .notAccount{
-    background-color: rgba(29, 29, 144, 0.611);
+    background-color: rgba(12, 158, 60, 0.611);
     color: white;
 }
 #EmailInUse{
@@ -145,7 +145,7 @@
         --button-width: 30%;
         --text-field-height: 35px;
         --text-field-width: 40%;
-        --color-button: blue;
+        --color-button:  rgb(44, 125, 231);
         --color-letters: white;
         --border-radius-text-field-and-button: 25px;
         --size-letters-text-field: 15px;
@@ -214,7 +214,7 @@
         --button-width: 20%;
         --text-field-height: 30px;
         --text-field-width: 30%;
-        --color-button: blue;
+        --color-button:rgb(44, 125, 231);
         --color-letters: white;
         --border-radius-text-field-and-button: 25px;
         --size-letters-text-field: 15px;
@@ -272,7 +272,7 @@
         --button-width: 16%;
         --text-field-height: 35px;
         --text-field-width: 25%;
-        --color-button: blue;
+        --color-button: rgb(44, 125, 231);
         --color-letters: white;
         --border-radius-text-field-and-button: 25px;
         --size-letters-text-field: 15px;
