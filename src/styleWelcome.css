@@ -245,5 +245,75 @@ a{
   
 }
 
-
 }
+
+
+@media only screen and (min-width:1025px) and (max-width:1440px){
+    .imgLogoWlcm{
+        height: 150px;
+        width: 150px;
+        align-self: center;
+        margin-bottom: -30px;
+        margin-left: 600px;
+        
+    
+    }
+    
+    h1.titleWlcm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+        color: rgb(5, 3, 3);
+        font-size: x-large;
+    }
+    section.wlcm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        width: 100%;
+        
+    }
+    
+    .buttonRegister{
+        height: var(--button-height);
+              width: var(--button-width);
+              margin-top: 110px;
+              margin-left: 570px;
+              border-radius: var(--border-radius-text-field-and-button);
+        font-size: var(--tamaño-letra);
+        background-color:rgb(44, 125, 231);
+        font-size: var(--size-letters-button);
+              color: black;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .buttonLogin{
+        height: var(--button-height);
+              width: var(--button-width);
+              margin-top: 10px;
+              margin-left: 570px;
+              border-radius: var(--border-radius-text-field-and-button);
+        font-size: var(--tamaño-letra);
+        background-color:rgb(44, 125, 231);
+        font-size: var(--size-letters-button);
+              color: black;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    a{
+        
+        font-size: large;
+        
+      
+    }
+    }
