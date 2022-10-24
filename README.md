@@ -18,13 +18,13 @@ Se trata de la red social Explore America donde los usuarios podran compartir lo
 
 ## 3. Imágenes finales del proyecto
 
+![Welcome](https://user-images.githubusercontent.com/108738816/197447351-850e97df-2f19-4840-b11b-1ae15b9e0ec0.png)
 
-![welcome](https://user-images.githubusercontent.com/108738816/197244938-86b502d9-8727-459a-91d5-b023c4619f26.PNG)
+![Register](https://user-images.githubusercontent.com/108738816/197447363-fc226775-f765-48f3-a91f-0646e53143b2.png)
 
-![register](https://user-images.githubusercontent.com/108738816/197244960-b66f8e2c-08ce-4da0-bb0b-1333da65e594.PNG)
+![Login](https://user-images.githubusercontent.com/108738816/197447379-8e7a8727-f252-49dc-b257-7ce59385b6d5.png)
 
-![login](https://user-images.githubusercontent.com/108738816/197244980-45b765bf-453a-4355-b8bd-ee3021820632.PNG)
+![Wall](https://user-images.githubusercontent.com/108738816/197447398-45725a8b-f7c8-4102-9a41-60617735a8a6.png)
 
-![wall](https://user-images.githubusercontent.com/108738816/197245057-c9732224-5287-4f94-b632-19506229e73e.PNG)
+![Post](https://user-images.githubusercontent.com/108738816/197447411-c7fb8722-cbe4-43ad-8e21-ef2898132ac9.png)
 
-![post](https://user-images.githubusercontent.com/108738816/197245013-f9830d12-8ec7-4919-862f-38a477d6eee7.PNG)
